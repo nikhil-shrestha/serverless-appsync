@@ -1,0 +1,11 @@
+# Define the queries
+type Query {
+  # list all Battlestars
+  helloWorld(consumer_key: String, consumer_secret: String): String!
+}
+
+# Define the schema
+schema {
+  # all the queries
+  query: Query
+}
